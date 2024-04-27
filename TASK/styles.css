@@ -1,0 +1,91 @@
+/* Set margin to 0 and specify font family */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the header */
+.header {
+  background-color: #008bcc; /* Background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  display: flex; /* Flex layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center alignment */
+}
+
+/* Style for the logo container */
+.logo-container {
+  display: flex; /* Flex layout */
+  align-items: center; /* Center alignment */
+  margin-left: 300px;
+}
+
+/* Style for the logo image */
+.logo {
+  height: 24px; /* Adjust as needed */
+  margin-right: 5px; /* Spacing between logo image and text */
+}
+
+/* Style for the logo text */
+.logo-text {
+  font-size: 24px; /* Font size */
+  font-weight: bold; /* Bold font weight */
+  text-transform: lowercase; /* Lowercase text */
+}
+
+/* Style for the navigation menu */
+.menu {
+  list-style: none; /* Remove list dots */
+  display: flex; /* Flex layout */
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
+}
+
+/* Style for menu items */
+.menu li {
+  padding: 0 10px; /* Padding for menu items */
+}
+
+/* Style for menu links */
+.menu li a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Text color */
+  font-size: 18px; /* Font size */
+}
+
+/* Style for language selector */
+.language-selector {
+  display: flex; /* Flex layout */
+  align-items: center; /* Center alignment */
+}
+
+/* Style for language selector links */
+.language-selector a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size */
+  margin-right: 10px; /* Spacing between links */
+}
+
+/* Style for the search button */
+.search-button {
+  background-color: transparent; /* No background */
+  border: none; /* Remove border */
+  color: white; /* Text color */
+  font-size: 24px; /* Size of the search icon */
+  cursor: pointer; /* Cursor as pointer */
+  padding: 0 10px; /* Padding around the search icon */
+}
+
+.search-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+/* Style for language selector and search icon container */
+.lang-search {
+  display: flex; /* Flex layout */
+  flex-direction: column; /* Align items in column */
+  align-items: center; /* Center alignment */
+  padding: 10px; /* Padding for container */
+}
